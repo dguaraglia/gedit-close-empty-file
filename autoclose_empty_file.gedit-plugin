@@ -1,0 +1,9 @@
+[Gedit Plugin]
+Loader=python
+Module=autoclose_empty_file
+IAge=2
+Name=Automatically close empty files
+Description=close the empty file that is created when gedit loads as soon as the user opens a file
+Authors=David Guaraglia <david@guaraglia.com>
+Copyright=Copyright 2010 David Guaraglia <david@guaraglia.com>
+Website=
