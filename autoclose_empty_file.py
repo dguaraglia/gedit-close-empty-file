@@ -13,6 +13,9 @@ class TabWatch:
         """ Once a tab is created find the first *other* tab with an emtpy and 
             untouched file and kill it"""
 
+        if (window.get_state() != gedit.WINDOW_STATE_NORMAL):
+            return
+
         # find the empty tab
         from pprint import pprint
         for document in self.geditwindow.get_documents():
